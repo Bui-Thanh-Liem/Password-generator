@@ -12,7 +12,7 @@ import CheckBox from "../CheckBox";
 //
 const cx = classnames.bind(styles);
 
-const PassWordGenerator: FC = () => {
+const PassWordGenerator:FC = () => {
     //
     const [inputPrimary, setInputPrimary] = useState<string>("abcABC123!?$");
     const [level, setLevel] = useState<string>("medium");
@@ -25,6 +25,7 @@ const PassWordGenerator: FC = () => {
     //
     const input = useRef<HTMLInputElement | null>(null);
 
+    //
     useEffect(() => {
         if (
             /[A-Z]/.test(inputPrimary) &&
@@ -93,6 +94,7 @@ const PassWordGenerator: FC = () => {
         setInputPrimary(randomString(lengthChar));
     };
 
+        // Copy
     const handleClickCopy = (): void => {
         if(input.current !== null) {
             navigator.clipboard.writeText(input.current.value as string)
