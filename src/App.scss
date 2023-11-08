@@ -1,0 +1,22 @@
+@use "./styles/" as *; // lấy thẳng tên biến ra dùng không cần phải tham chiếu tới tên khác
+@use "./styles/global.scss";
+@use "./styles/mixins";
+@import "normalize.css";
+
+.app-container {
+    
+    .row {
+        background-color: $primary-color;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+
+        & > * {
+            margin: 0;
+            padding: 0;
+        }
+
+        --bs-gutter-x: 0;
+    }
+}

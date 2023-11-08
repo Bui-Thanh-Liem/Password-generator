@@ -1,0 +1,21 @@
+// Color 
+$primary-color: #319795;
+
+// Color text
+$text-color: #212121;
+
+// Other colors
+$red-color: #ff0000;
+$yellow-color: #f0f005;
+$orange-color: #ffa500;
+$green-color: #008000;
+$white-color: #FFFFFF;
+$black-color: #000;
+
+// radius
+$boder-radius: 15px;
+
+
+[data-theme="dark"] {
+    $primary-color: red;
+}

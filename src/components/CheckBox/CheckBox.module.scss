@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+
+.checkBox-container {
+    margin-bottom: 12px;
+    .group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .input {
+        font-size: 1.6rem;
+
+        input[type="checkbox"] {
+            background-color: $primary-color;
+            border: none;
+            box-shadow: unset;
+
+            &:focus {
+                box-shadow: 0 0 5px $primary-color;
+            }
+        }
+    }
+
+    .label {
+        font-size: 1.3rem;
+        font-weight: 600;
+        transform: translateY(12px);
+    }
+}

@@ -1,0 +1,32 @@
+// Font family
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800&family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,500&display=swap");
+html,
+body {
+    font-family: "Inconsolata", monospace;
+    font-family: "Nunito", sans-serif;
+}
+
+// Font size
+body {
+    font-size: 62.5%;
+}
+
+//
+body * {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+dl {
+    list-style: none;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
