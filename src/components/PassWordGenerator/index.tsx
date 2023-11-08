@@ -14,9 +14,9 @@ const cx = classnames.bind(styles);
 
 const PassWordGenerator:FC = () => {
     //
-    const [inputPrimary, setInputPrimary] = useState<string>("abcABC123!?$");
+    const [inputPrimary, setInputPrimary] = useState<string>("AAA55HEB");
     const [level, setLevel] = useState<string>("medium");
-    const [lengthChar, setLengthChar] = useState<number>(5);
+    const [lengthChar, setLengthChar] = useState<number>(8);
     const [upper, setUpper] = useState<boolean>(true);
     const [lower, setLower] = useState<boolean>(false);
     const [numb, setNumb] = useState<boolean>(true);
